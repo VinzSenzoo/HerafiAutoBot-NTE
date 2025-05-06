@@ -142,7 +142,7 @@ async function reportTransaction(tx, direction, tokenIn, tokenOut, amountIn, amo
     slippage: slippage
   };
 
-  const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnaWZ3aGt1YWh0aXR3dmNsYW5rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEyOTU0NTUsImV4cCI6MjA1Njg3MTQ1NX0.rPH6IVNsblq_rIwnAE8dNdKPtBtuY7MkKMi67Ut8KVA";
+  const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnaWZ3aGt1YWh0aXR3dmNsYW5rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0NDQ3MTcsImV4cCI6MjA2MjAyMDcxN30.hV-M3tGnGMp2UR3HuYBwjft5aRSxDC_a5Xg1ML3_tLE";
   const authorization = `Bearer ${apiKey}`;
 
   try {
@@ -1828,7 +1828,7 @@ function getTokenName(tokenAddress) {
 }
 
 async function reportLiquidityTransaction(payload) {
-  const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnaWZ3aGt1YWh0aXR3dmNsYW5rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEyOTU0NTUsImV4cCI6MjA1Njg3MTQ1NX0.rPH6IVNsblq_rIwnAE8dNdKPtBtuY7MkKMi67Ut8KVA";
+  const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhnaWZ3aGt1YWh0aXR3dmNsYW5rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY0NDQ3MTcsImV4cCI6MjA2MjAyMDcxN30.hV-M3tGnGMp2UR3HuYBwjft5aRSxDC_a5Xg1ML3_tLE";
   const authorization = `Bearer ${apiKey}`;
 
   try {
